@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="./assets/css/index.css" />
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     </head>
     <body>
         <div class="App">
@@ -14,7 +15,7 @@
                     <img src="./assets/img/shuffle.svg" id="logo" />
                     <h1>Não sabe o que assistir?</h1>
                 </header>
-                <div class="movie">
+                <div id="movieContainer" class="hide">
                     <img src="" alt="" />
                     <div class="movieText">
                         <h2></h2>
@@ -33,6 +34,7 @@
                 </footer>
             </div>
         </div>
-        <script src="./js/index.js"></script>
+        <script type="module" src="./js/api.js"></script>
+        <script type="module" src="./js/index.js"></script>
     </body>
 </html>

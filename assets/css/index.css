@@ -79,10 +79,12 @@
   margin-left: 30px;
 }
 .content .movie img {
-  width: 170px;
+  width: 180px;
   height: 250px;
   border-radius: 5px;
   background-color: #1e46a3;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .content .movie h2 {
   font-size: 20px;
