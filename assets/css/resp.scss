@@ -1,0 +1,39 @@
+@import "global-styles";
+
+@media (max-width: 630px) {
+    .content {
+        align-items: center;
+        header {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .movie {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            .movieText {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                padding-right: 30px;
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        footer {
+            padding: 10px 30px;
+            p {
+            }
+        }
+    }
+}
